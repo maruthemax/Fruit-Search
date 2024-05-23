@@ -1,0 +1,77 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+  outline: none;
+}
+
+body {
+  /* TODO */
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+input {
+ /* TODO */
+  width: 100%;
+  padding: 10px;
+  border: 2px dotted #e66465;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #9198e5;
+  color: #333;
+}
+
+input::placeholder {
+  /* Placeholder text color */
+  color: red;
+  text-align: center;
+}
+
+.search-container {
+ /* TODO */
+  /* max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; */
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+  list-style: none;
+  padding: 0;
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+ul li:hover {
+  /* TODO */
+  background-color: #f9f9f9;
+}
+
+input {
+   /* TODO */
+}
